@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .graph circle {
+    @apply stroke-white stroke-2 fill-purple-500
+  }
+}
